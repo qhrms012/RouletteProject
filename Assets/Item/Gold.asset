@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Gold
   m_EditorClassIdentifier: 
   itemName: Gold
-  probability: 30
-  icon: {fileID: 0}
-  description: 
+  probability: 90
+  icon: {fileID: 21300000, guid: fe001c55f2b1ab34e875b131ab0e0b41, type: 3}
+  description: Gold

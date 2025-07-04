@@ -13,6 +13,6 @@ MonoBehaviour:
   m_Name: Sword
   m_EditorClassIdentifier: 
   itemName: Sword
-  probability: 30
-  icon: {fileID: 0}
-  description: 
+  probability: 5
+  icon: {fileID: 21300000, guid: 243c3c5bf8f3ac641aee5ba3d17d14c6, type: 3}
+  description: Sword

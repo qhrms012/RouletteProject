@@ -200,7 +200,7 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 0
-  m_AdditionalShaderChannelsFlag: 0
+  m_AdditionalShaderChannelsFlag: 25
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
@@ -696,6 +696,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1590884216}
   - component: {fileID: 1590884217}
+  - component: {fileID: 1590884218}
   m_Layer: 5
   m_Name: GameObject
   m_TagString: Untagged
@@ -740,6 +741,21 @@ MonoBehaviour:
   wheel: {fileID: 1924200576}
   spinButton: {fileID: 1535514034}
   gachaDatabase: {fileID: 11400000, guid: 8cd75c9f9ed6c0c4aa512e7851d5d7a5, type: 2}
+--- !u!114 &1590884218
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1590884215}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cdd592570c3aa174286d2a2a1c4fc01e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gachaDatabase: {fileID: 11400000, guid: 8cd75c9f9ed6c0c4aa512e7851d5d7a5, type: 2}
+  sectorPrefab: {fileID: 4635773486256997829, guid: 5c24f760a1ecd75439bbfefe0c13e0e7, type: 3}
+  wheelParent: {fileID: 1924200576}
 --- !u!1 &1924200575
 GameObject:
   m_ObjectHideFlags: 0
