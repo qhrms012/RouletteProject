@@ -12,4 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 56379ea0cf0fed54b98378ef22b92146, type: 3}
   m_Name: GachaDatabase
   m_EditorClassIdentifier: 
-  items: []
+  items:
+  - {fileID: 11400000, guid: 851a1c817e7457b4eab1316d9f044b68, type: 2}
+  - {fileID: 11400000, guid: 7bf533d6908b9b5439ce49e2ec4dc7f0, type: 2}
+  - {fileID: 11400000, guid: c625fdbea52f5434e84387d7e12df4ff, type: 2}
